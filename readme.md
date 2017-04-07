@@ -1,15 +1,15 @@
 # RESTFULL EN PHP
 
 Página web con interfaz de login y consumo de API de la web:
-http://atypaxtest.herokuapp.com/api
+```http://atypaxtest.herokuapp.com/api```
 
 ### Consumos Permitidos: ###
 
-GET http://atypaxtest.herokuapp.com/api
+GET ```http://atypaxtest.herokuapp.com/api```
 
-POST http://atypaxtest.herokuapp.com/api
+POST ```http://atypaxtest.herokuapp.com/api```
 
-PUT http://atypaxtest.herokuapp.com/api/$id
+PUT ```http://atypaxtest.herokuapp.com/api/$id```
 
 ### Tecnologias ###
  - Laravel 5.2
@@ -38,16 +38,16 @@ para ello vamos a usar Heroku, tanto para la web como para el APIRest.
 Se describe los archivos correspondientes.
 
 ***API RestFull:***
-app/Http/Controllers/ApiController.php
+```app/Http/Controllers/ApiController.php```
 
 ***Consumidor del API:***
-app/Http/Controllers/UserController.php
+```app/Http/Controllers/UserController.php```
 
 ***Página Login:***
-app/resources/views/auth/login.blade.php
+```app/resources/views/auth/login.blade.php```
 
 ***Página home:***
-app/resources/views/home.blade.php
+```app/resources/views/home.blade.php```
 
 ### Demostración ###
 http://atypaxtest.herokuapp.com
