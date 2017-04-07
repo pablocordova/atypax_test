@@ -30,7 +30,6 @@
                         @endforeach
                         </tbody> 
                     </table>
-                    <!-- button type="button" onclick="window.location='{{ url("home") }}'" class="btn btn-info">Get</button -->
                 </div>
             </div>
             <div class="panel panel-success">
@@ -47,7 +46,7 @@
                             <input type="email" name="email" class="form-control" id="email" placeholder="Enter email">
                         </div>
                         <div class="form-group">
-                            <label for="password">Name:</label>
+                            <label for="password">Password:</label>
                             <input type="password" name="password" class="form-control" id="password" placeholder="Enter password">
                         </div>
                         <button type="submit" class="btn btn-success">Create</button>

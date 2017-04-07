@@ -11,11 +11,13 @@
 |
 */
 
+
 Route::get('/', function () {
     return view('auth/login');
 });
+// Routes to login
 Route::auth();
-
-Route::resource('home', 'UserController@index');
+// Routes API
+Route::resource('home', 'UserController');
 Route::resource('api', 'ApiController');
 
