@@ -30,7 +30,7 @@
                         @endforeach
                         </tbody> 
                     </table>
-                    <button type="button" onclick="window.location='{{ url("home") }}'" class="btn btn-info">Get</button>
+                    <!-- button type="button" onclick="window.location='{{ url("home") }}'" class="btn btn-info">Get</button -->
                 </div>
             </div>
             <div class="panel panel-success">
@@ -38,7 +38,6 @@
 
                 <div class="panel-body">
                     <form action="/home" method="POST">
-                        <!-- input type="hidden" name="_token" value="{{ csrf_token() }}"></input -->
                         <div class="form-group">
                             <label for="name">Name:</label>
                             <input type="name" name="name" class="form-control" id="name" placeholder="Enter name">

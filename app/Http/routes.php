@@ -14,9 +14,8 @@
 Route::get('/', function () {
     return view('auth/login');
 });
-
-/*Route::resource('users', 'UserController');*/
 Route::auth();
-/*Route::get('home', 'HomeController@index');*/
-/*Route::get('home', 'UserController@index');*/
-Route::resource('home', 'UserController');
+
+Route::resource('home', 'UserController@index');
+Route::resource('api', 'ApiController');
+
