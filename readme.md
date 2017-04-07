@@ -6,7 +6,9 @@ http://atypaxtest.herokuapp.com/api
 ### Consumos Permitidos: ###
 
 GET http://atypaxtest.herokuapp.com/api
+
 POST http://atypaxtest.herokuapp.com/api
+
 PUT http://atypaxtest.herokuapp.com/api/$id
 
 ### Tecnologias ###
@@ -35,22 +37,23 @@ para ello vamos a usar Heroku, tanto para la web como para el APIRest.
 
 Se describe los archivos correspondientes.
 
-API RestFull:
+***API RestFull:***
 app/Http/Controllers/ApiController.php
 
-Consumidor del API:
+***Consumidor del API:***
 app/Http/Controllers/UserController.php
 
-Página Login:
+***Página Login:***
 app/resources/views/auth/login.blade.php
 
-Página home:
+***Página home:***
 app/resources/views/home.blade.php
 
 ### Demostración ###
 http://atypaxtest.herokuapp.com
 
 ***E-Mail Address:*** pablo
+
 ***Password:*** admin123
 
 ### Observaciones ###
